@@ -1,6 +1,8 @@
 Rails.application.configure do
 
-  config.active_storage.service = :local
+  # config.active_storage.service = :local
+
+  config.active_storage.service = :amazon
 
   # Settings specified here will take precedence over those in config/application.rb.
 
