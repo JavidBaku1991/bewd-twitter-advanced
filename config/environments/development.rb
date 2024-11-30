@@ -17,6 +17,17 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+  config.action_mailer.smtp_settings = {
+  address: 'smtp.example.com',  # Replace with your SMTP server
+  port: 587,                   # Use the appropriate port for your service
+  domain: 'javidbaku.com',       # Replace with your domain
+  user_name: 'javidbaku1991@gmail.com',  # Your SMTP username
+  password: 'Espana2013',           # Your SMTP password
+  authentication: 'plain',            # or 'login', depending on your service
+  enable_starttls_auto: true          # For secure communication
+}
+
+
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
     config.action_controller.perform_caching = true

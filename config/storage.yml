@@ -6,9 +6,21 @@ test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>
 
-amazon: 
-  service: S3 
-  access_key_id: <%= ENV['AWS_S3_ACCESS_KEY_ID'] %> 
-  secret_access_key: <%= ENV['AWS_S3_SECRET_ACCESS_KEY'] %> 
-  region: "us-east-1" 
-  bucket: <%= ENV['PHOTO_UPLOAD_BUCKET'] %>
+amazon:
+  service: S3
+  access_key_id: <%= ENV['AKIAXWHDLRUVQVFK3EFD'] %>
+  secret_access_key: <%= ENV['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'] %>
+  region: <%= ENV['us-east-1'] %>
+  bucket: <%= ENV['javid-twitter-photo'] %>
+
+
+
+#   heroku config:set AWS_ACCESS_KEY_ID=AKIAXWHDLRUVQVFK3EFD --app bewd-twitter-advanced-javid
+# heroku config:set AWS_SECRET_ACCESS_KEY=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 --app bewd-twitter-advanced-javid
+# heroku config:set AWS_REGION=us-east-1 --app bewd-twitter-advanced-javid
+# heroku config:set AWS_BUCKET=javid-twitter-photo --app bewd-twitter-advanced-javid
+
+# heroku config:set AWS_ACCESS_KEY_ID=your-access-key-id --app your-app-name
+# heroku config:set AWS_SECRET_ACCESS_KEY=your-secret-access-key --app your-app-name
+# heroku config:set AWS_REGION=your-region --app your-app-name
+# heroku config:set AWS_BUCKET=your-bucket-name --app your-app-name
