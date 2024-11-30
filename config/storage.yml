@@ -15,12 +15,3 @@ amazon:
 
 
 
-#   heroku config:set AWS_ACCESS_KEY_ID=AKIAXWHDLRUVQVFK3EFD --app bewd-twitter-advanced-javid
-# heroku config:set AWS_SECRET_ACCESS_KEY=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 --app bewd-twitter-advanced-javid
-# heroku config:set AWS_REGION=us-east-1 --app bewd-twitter-advanced-javid
-# heroku config:set AWS_BUCKET=javid-twitter-photo --app bewd-twitter-advanced-javid
-
-# heroku config:set AWS_ACCESS_KEY_ID=your-access-key-id --app your-app-name
-# heroku config:set AWS_SECRET_ACCESS_KEY=your-secret-access-key --app your-app-name
-# heroku config:set AWS_REGION=your-region --app your-app-name
-# heroku config:set AWS_BUCKET=your-bucket-name --app your-app-name
