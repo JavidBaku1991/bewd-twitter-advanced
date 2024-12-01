@@ -1,5 +1,7 @@
 Aws.config.update({
-  region: ENV['AWS_REGION'],
-  credentials: Aws::Credentials.new('AKIAXWHDLRUVQVFK3EFD', 'Av6b2qZ4J1etQwP1K8A8p+g+w12A8lMCpsqeKue')
+  region: ENV['AWS_REGION'], # Fetch the region from environment variables
+  credentials: Aws::Credentials.new(
+    ENV['AWS_ACCESS_KEY_ID'], # Fetch the access key from environment variables
+    ENV['AWS_SECRET_ACCESS_KEY'] # Fetch the secret key from environment variables
+  )
 })
-

@@ -8,10 +8,7 @@ test:
 
 amazon:
   service: S3
-  access_key_id: <%= ENV['AKIAXWHDLRUVQVFK3EFD'] %>
-  secret_access_key: <%= ENV['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'] %>
-  region: <%= ENV['us-east-1'] %>
-  bucket: <%= ENV['javid-twitter-photo'] %>
-
-
-
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['AWS_REGION'] %>
+  bucket: <%= ENV['AWS_BUCKET'] %> # Replace with your S3 bucket name
