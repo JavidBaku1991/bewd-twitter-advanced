@@ -62,7 +62,7 @@ group :development do
   gem 'listen', '~> 3.7.1'
   gem 'web-console', '>= 4.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring', '< 3.0'
+  gem 'spring', '< 3.1'
   gem 'spring-watcher-listen', '~> 2.0.1'
 
   # Use sqlite3 as the database for Active Record

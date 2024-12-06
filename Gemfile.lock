@@ -304,7 +304,7 @@ DEPENDENCIES
   rubocop (~> 1.36)
   rubocop-rspec (= 2.12)
   sass-rails (~> 6.0)
-  spring (< 3.0)
+  spring (< 3.1)
   spring-watcher-listen (~> 2.0.1)
   sqlite3 (~> 1.4)
   turbolinks (~> 5.2.1)
